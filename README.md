@@ -1,54 +1,57 @@
-# 技术栈与项目经验
+# 开源项目展示
 
-## 后端开发
-• **Node.js** - 基于Chrome V8引擎的异步非阻塞事件驱动JavaScript运行时
-  ○ **跨平台开发** - 使用Node.js编写跨平台代码
-  
-• **Python** - 高级编程语言，广泛用于Web开发、数据科学和自动化
-  ○ **Web框架** - Django, Flask, FastAPI
-  ○ **数据处理** - pandas, numpy, scikit-learn
+## Web开发框架
+• [**Vue.js**](https://github.com/vuejs/vue) - 渐进式JavaScript框架，用于构建用户界面
+  ○ **响应式数据绑定** - 双向数据绑定和虚拟DOM
+  ○ **组件化架构** - 可复用的组件系统
+  ○ **生态丰富** - Vue Router、Vuex状态管理
 
-• **Java** - 企业级应用开发的主流编程语言
-  ○ **Spring框架** - 企业级Java应用开发框架
-  ○ **微服务架构** - Spring Boot, Spring Cloud
+• [**React**](https://github.com/facebook/react) - 用于构建用户界面的JavaScript库
+  ○ **声明式编程** - 描述UI应该是什么样子
+  ○ **组件化开发** - 封装可复用的UI组件
+  ○ **虚拟DOM** - 高效的DOM更新机制
 
-## 前端开发
-• **React** - 用于构建用户界面的JavaScript库
-  ○ **状态管理** - Redux, Context API
-  ○ **路由** - React Router
+• [**Express.js**](https://github.com/expressjs/express) - 快速、极简的Node.js Web应用框架
+  ○ **轻量级** - 最小化的Web应用框架
+  ○ **中间件支持** - 灵活的中间件系统
+  ○ **路由系统** - 强大的路由处理能力
 
-• **Vue.js** - 渐进式JavaScript框架
-  ○ **组件化开发** - 单文件组件，组合式API
+## 数据库与存储
+• [**MongoDB**](https://github.com/mongodb/mongo) - 面向文档的NoSQL数据库
+  ○ **文档存储** - 使用BSON格式存储数据
+  ○ **水平扩展** - 支持分片和副本集
+  ○ **灵活模式** - 无需预定义表结构
 
-• **TypeScript** - JavaScript的超集，添加了静态类型检查
-
-## 移动端开发
-• **React Native** - 使用JavaScript编写原生渲染的移动应用框架，支持iOS和Android
-• **Flutter** - Google开发的跨平台移动应用开发框架
-• **iOS** - 苹果手机和平板电脑的移动操作系统
-• **Android** - Google开发的移动操作系统
-
-## 数据库
-• **MySQL** - 开源关系型数据库管理系统
-• **PostgreSQL** - 高级开源关系型数据库
-• **MongoDB** - 面向文档的NoSQL数据库
-• **Redis** - 内存数据结构存储，用作数据库、缓存和消息代理
-
-## 云服务与部署
-• **Docker** - 容器化平台，用于应用程序的打包和部署
-  ○ **容器编排** - Docker Compose, Kubernetes
-  
-• **AWS** - 亚马逊云服务平台
-  ○ **计算服务** - EC2, Lambda
-  ○ **存储服务** - S3, RDS
-  
-• **阿里云** - 阿里巴巴集团的云计算服务平台
+• [**Redis**](https://github.com/redis/redis) - 内存数据结构存储系统
+  ○ **高性能** - 内存存储，读写速度极快
+  ○ **数据类型丰富** - 支持字符串、列表、集合等多种数据类型
+  ○ **持久化** - 支持RDB和AOF两种持久化方式
 
 ## 开发工具
-• **Git** - 分布式版本控制系统
-• **Linux** - 开源操作系统
-  ○ **Shell脚本** - Bash, Zsh
-  ○ **系统管理** - 服务器配置与维护
-  
-• **VS Code** - 轻量级代码编辑器
-• **IntelliJ IDEA** - Java集成开发环境
+• [**Visual Studio Code**](https://github.com/microsoft/vscode) - 轻量级但功能强大的源代码编辑器
+  ○ **跨平台** - 支持Windows、macOS和Linux
+  ○ **扩展生态** - 丰富的插件市场
+  ○ **智能感知** - 代码补全和语法高亮
+
+• [**Docker**](https://github.com/docker/docker-ce) - 容器化平台，用于应用程序的打包和部署
+  ○ **轻量级虚拟化** - 比传统虚拟机更高效
+  ○ **一致性环境** - 确保开发、测试、生产环境一致
+  ○ **微服务支持** - 完美支持微服务架构
+
+## 机器学习与AI
+• [**TensorFlow**](https://github.com/tensorflow/tensorflow) - Google开源的机器学习框架
+  ○ **深度学习** - 支持神经网络和深度学习模型
+  ○ **多平台部署** - 支持移动端、Web端和服务器端
+  ○ **可视化工具** - TensorBoard可视化训练过程
+
+• [**PyTorch**](https://github.com/pytorch/pytorch) - Facebook开源的深度学习框架
+  ○ **动态计算图** - 更灵活的模型构建方式
+  ○ **Python优先** - 原生Python支持，易于调试
+  ○ **研究友好** - 广泛用于学术研究
+
+## 系统工具
+• [**Kubernetes**](https://github.com/kubernetes/kubernetes) - 容器编排平台，用于自动化部署、扩展和管理容器化应用
+  ○ **自动扩缩容** - 根据负载自动调整应用实例数量
+  ○ **服务发现** - 内置负载均衡和服务发现机制
+  ○ **滚动更新** - 零停机时间的应用更新
+  ○ **自愈能力** - 自动重启失败的容器和重新调度
