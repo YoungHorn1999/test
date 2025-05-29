@@ -1,5 +1,10 @@
 # 开源项目展示
 
+## 分类1
+• [**项目名称（链接到项目github）**](https://github.com) - 项目简介（一句话）<br>
+  ○ **特点1** - 介绍1<br>
+  ○ **特点2** - 介绍2<br>
+
 ## 代码编辑器与IDE
 • [**Visual Studio Code**](https://github.com/microsoft/vscode) - 微软开源的轻量级代码编辑器<br>
   ○ **跨平台支持** - 支持Windows、macOS和Linux<br>
